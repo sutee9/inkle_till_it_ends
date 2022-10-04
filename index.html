@@ -10,8 +10,8 @@
 	<meta http-equiv="Expires" content="0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="endworld_style.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/endworld_style.css">
 
 </head>
 
@@ -30,10 +30,11 @@
 			</div>
 		</div>
 
-    <script src="ink.js"></script>
-    <script src="story.js"></script>
-    <script src="main.js"></script>
-	<script src="timer.js"></script>
+    <script src="./script/ink.js"></script>
+	<script src="story.js"></script>
+    <script src="./script/main.js"></script>
+	<script src="./script/timer.js"></script>
+
 	<script>
 
 		//Define here what should happen when the timer expires
@@ -41,7 +42,7 @@
 		function countdownTimerExpiredCallback(){
 			inkleStory.clearAndGoToKnot("ItEnded", true);
 			document.getElementById('countdowntimerlabel').innerHTML="It ends";
-			document.getElementById('countdowntimer').innerHTML = '<img class="endimg" src="explosion.gif"></img>';
+			document.getElementById('countdowntimer').innerHTML = '<img class="endimg" src="img/explosion.gif"></img>';
 		}
 
 	</script>
