@@ -127,7 +127,7 @@ function inkleStoryGenerator(storyContent) {
 	*/
    function evaluateTags() {
         for (i in story.currentTags) {
-			let tag = story.currentTags[i]
+			let tag = story.currentTags[i].toLowerCase();
             switch (tag) {
                 case 'reload':
 					reloadPage();
