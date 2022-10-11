@@ -1,6 +1,5 @@
 //Write your story here. You can use 
 You have ten seconds before the apocalypse happens. Maybe just eight by the time you've finished reading this. There's nothing left to do but wait. So you wait. -> END
-
    
 == ItEnded ==
 //DON'T DELETE THIS KNOT
