@@ -4,8 +4,10 @@ body{
 }
 
 h1 {
+	font-family: sans-serif;
     text-align: center;
     font-weight: lighter;
+	color: #ADD2CE;
 }
 
 .container {
@@ -17,7 +19,7 @@ h1 {
 }
 
 p, a {
-    color: gray;
+    color: #ADD2CE;
     line-height: 1.7em;
     font-size: 13pt;
 }
@@ -41,5 +43,5 @@ p.choice {
 }
 
 a:hover {
-    color: black;
+    color: #D1245C;
 }

@@ -41,10 +41,10 @@ body, html {
 }
 
 .sidebar {
-	background-color: black; /* #cd684c;*/
+	background-color: #52071F; /* #cd684c;*/
 }
 .story {
-	background-color: white; /*#f6c280;*/
+	background-color: #672741; /*#f6c280;*/
 }
 .fullheight {
 	min-height: 100%;
