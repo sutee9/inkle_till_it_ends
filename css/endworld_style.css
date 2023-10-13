@@ -1,3 +1,15 @@
+/** Change colors here for backgrounds of sidebar and story **/
+.sidebar {
+	background-color: black; /* #cd684c;*/
+}
+.story {
+	background-color: white; /*#f6c280;*/
+}
+p, a {
+    color: #cd684c;
+}
+
+/** only change stuff below if you know what you're doing **/
 body, html {
 	height: 100%;
 	margin-top: 0px; 
@@ -38,13 +50,6 @@ body, html {
 }
 .col-4-span-3 {
 	flex: 75%;
-}
-
-.sidebar {
-	background-color: black; /* #cd684c;*/
-}
-.story {
-	background-color: white; /*#f6c280;*/
 }
 .fullheight {
 	min-height: 100%;

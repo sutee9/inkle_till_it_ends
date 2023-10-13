@@ -21,7 +21,7 @@ function inkleStoryGenerator(storyContent) {
         var dist = document.body.scrollHeight - window.innerHeight - start;
         if( dist < 0 ) return;
 
-        var duration = 300 + 300*dist/100;
+        var duration = 100 + 200*dist/100;
         var startTime = null;
         function step(time) {
             if( startTime == null ) startTime = time;
@@ -58,7 +58,7 @@ function inkleStoryGenerator(storyContent) {
             // Fade in paragraph after a short delay
             showAfter(delay, paragraphElement);
 
-            delay += 200.0;
+            delay += 150.0;
         }
 
         // Create HTML choices from ink choices
@@ -72,7 +72,7 @@ function inkleStoryGenerator(storyContent) {
 
             // Fade choice in after a short delay
             showAfter(delay, choiceParagraphElement);
-            delay += 200.0;
+            delay += 150.0;
 
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
